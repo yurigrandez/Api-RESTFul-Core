@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "DA.Alquileres.Repository\\UsuarioRepository.cs",
               "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Repository\\UsuarioRepository.cs",
               "RelativeToolTip": "DA.Alquileres.Repository\\UsuarioRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T19:32:53.955Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "DA.Alquileres.Services\\UsuarioServices.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T19:32:35.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:32:35.799Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "DA.Alquileres.API\\Controllers\\UsuarioController.cs",
               "ViewState": "AgIAAF0AAAAAAAAAAAAkwLEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:31:13.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:31:13.86Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "DA.Alquileres.API\\ServicesInyeccionDependenciesExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:21:18.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:21:18.783Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "DA.Alquileres.Repository\\BaseRepository.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAwDsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:17:01.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:17:01.279Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "DA.Alquileres.Entidades\\Entidades\\TabUsuarios.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:09:05.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:09:05.299Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "DA.Alquileres.DTO\\Usuario\\UsuarioDTO.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T14:58:39.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T14:58:39.497Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "DA.Alquileres.API\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAEQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T14:37:42.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T14:37:42.944Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "DA.Alquileres.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-23T14:37:14.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T14:37:14.404Z"
             },
             {
               "$type": "Document",
@@ -179,8 +171,7 @@
               "RelativeToolTip": "DA.Alquileres.Entidades\\Entidades\\_dbAlquileresContext.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAcwEkAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T14:16:42.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T14:16:42.565Z"
             }
           ]
         }

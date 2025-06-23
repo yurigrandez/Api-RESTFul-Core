@@ -63,8 +63,7 @@
               "RelativeToolTip": "DA.Alquileres.MonoProyecto\\Services\\TipoDocumentosServices.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAuwEkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:12:11.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:12:11.198Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "DA.Alquileres.MonoProyecto\\Services\\ITipoDocumentosServices.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwC4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:11:56.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:11:56.785Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "DA.Alquileres.MonoProyecto\\Model\\TipoDocumentos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:01:02.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:01:02.872Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "DA.Alquileres.MonoProyecto\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T14:37:34.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T14:37:34.053Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "DA.Alquileres.MonoProyecto\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-23T14:36:53.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T14:36:53.717Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "DA.Alquileres.MonoProyecto\\Data\\dbAlquileresContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T14:32:10.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T14:32:10.894Z"
             }
           ]
         }

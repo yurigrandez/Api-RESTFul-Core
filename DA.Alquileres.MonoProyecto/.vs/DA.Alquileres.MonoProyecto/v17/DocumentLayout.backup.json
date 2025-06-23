@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres.MonoProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{037209AD-7016-4ED6-84A3-B29A121BC27B}|DA.Alquileres.MonoProyecto\\DA.Alquileres.MonoProyecto.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres.monoproyecto\\da.alquileres.monoproyecto\\services\\tipodocumentosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{037209AD-7016-4ED6-84A3-B29A121BC27B}|DA.Alquileres.MonoProyecto\\DA.Alquileres.MonoProyecto.csproj|solutionrelative:da.alquileres.monoproyecto\\services\\tipodocumentosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{037209AD-7016-4ED6-84A3-B29A121BC27B}|DA.Alquileres.MonoProyecto\\DA.Alquileres.MonoProyecto.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres.monoproyecto\\da.alquileres.monoproyecto\\controllers\\tipodocumentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{037209AD-7016-4ED6-84A3-B29A121BC27B}|DA.Alquileres.MonoProyecto\\DA.Alquileres.MonoProyecto.csproj|solutionrelative:da.alquileres.monoproyecto\\controllers\\tipodocumentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037209AD-7016-4ED6-84A3-B29A121BC27B}|DA.Alquileres.MonoProyecto\\DA.Alquileres.MonoProyecto.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres.monoproyecto\\da.alquileres.monoproyecto\\services\\tipodocumentosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037209AD-7016-4ED6-84A3-B29A121BC27B}|DA.Alquileres.MonoProyecto\\DA.Alquileres.MonoProyecto.csproj|solutionrelative:da.alquileres.monoproyecto\\services\\tipodocumentosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{037209AD-7016-4ED6-84A3-B29A121BC27B}|DA.Alquileres.MonoProyecto\\DA.Alquileres.MonoProyecto.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres.monoproyecto\\da.alquileres.monoproyecto\\services\\itipodocumentosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TipoDocumentosController.cs",
               "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres.MonoProyecto\\DA.Alquileres.MonoProyecto\\Controllers\\TipoDocumentosController.cs",
               "RelativeDocumentMoniker": "DA.Alquileres.MonoProyecto\\Controllers\\TipoDocumentosController.cs",
               "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres.MonoProyecto\\DA.Alquileres.MonoProyecto\\Controllers\\TipoDocumentosController.cs",
               "RelativeToolTip": "DA.Alquileres.MonoProyecto\\Controllers\\TipoDocumentosController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAYwEUAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwEQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T15:20:25.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TipoDocumentosServices.cs",
               "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres.MonoProyecto\\DA.Alquileres.MonoProyecto\\Services\\TipoDocumentosServices.cs",
               "RelativeDocumentMoniker": "DA.Alquileres.MonoProyecto\\Services\\TipoDocumentosServices.cs",
