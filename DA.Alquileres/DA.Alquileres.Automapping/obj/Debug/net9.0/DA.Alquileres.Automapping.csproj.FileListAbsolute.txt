@@ -1,0 +1,14 @@
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\bin\Debug\net9.0\DA.Alquileres.Automapping.deps.json
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\bin\Debug\net9.0\DA.Alquileres.Automapping.runtimeconfig.json
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\bin\Debug\net9.0\DA.Alquileres.Automapping.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\bin\Debug\net9.0\DA.Alquileres.Automapping.pdb
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.csproj.AssemblyReference.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.AssemblyInfoInputs.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.AssemblyInfo.cs
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.csproj.CoreCompileInputs.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\refint\DA.Alquileres.Automapping.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.pdb
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.genruntimeconfig.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\ref\DA.Alquileres.Automapping.dll

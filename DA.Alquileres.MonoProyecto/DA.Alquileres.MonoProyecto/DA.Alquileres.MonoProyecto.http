@@ -1,0 +1,6 @@
+@DA.Alquileres.MonoProyecto_HostAddress = http://localhost:5165
+
+GET {{DA.Alquileres.MonoProyecto_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

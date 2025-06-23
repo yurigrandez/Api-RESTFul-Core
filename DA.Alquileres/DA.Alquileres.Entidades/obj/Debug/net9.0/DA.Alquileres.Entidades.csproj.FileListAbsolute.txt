@@ -1,0 +1,17 @@
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\bin\Debug\net9.0\DA.Alquileres.Entidades.deps.json
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\bin\Debug\net9.0\DA.Alquileres.Entidades.runtimeconfig.json
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\bin\Debug\net9.0\DA.Alquileres.Entidades.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\bin\Debug\net9.0\DA.Alquileres.Entidades.pdb
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\DA.Alquileres.Entidades.csproj.AssemblyReference.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\DA.Alquileres.Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\DA.Alquileres.Entidades.AssemblyInfoInputs.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\DA.Alquileres.Entidades.AssemblyInfo.cs
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\DA.Alquileres.Entidades.csproj.CoreCompileInputs.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\DA.Alquileres.Entidades.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\refint\DA.Alquileres.Entidades.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\DA.Alquileres.Entidades.pdb
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\DA.Alquileres.Entidades.genruntimeconfig.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\ref\DA.Alquileres.Entidades.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\bin\Debug\net9.0\DA.Alquileres.DTO.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\bin\Debug\net9.0\DA.Alquileres.DTO.pdb
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Entidades\obj\Debug\net9.0\DA.Alqui.AE7D325F.Up2Date

@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D24BEF98-8F78-4553-83D3-5264868CC269}|DA.Alquileres.Repository\\DA.Alquileres.Repository.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24BEF98-8F78-4553-83D3-5264868CC269}|DA.Alquileres.Repository\\DA.Alquileres.Repository.csproj|solutionrelative:da.alquileres.repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|solutionrelative:da.alquileres.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24BEF98-8F78-4553-83D3-5264868CC269}|DA.Alquileres.Repository\\DA.Alquileres.Repository.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24BEF98-8F78-4553-83D3-5264868CC269}|DA.Alquileres.Repository\\DA.Alquileres.Repository.csproj|solutionrelative:da.alquileres.repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{806319B3-8411-4337-8569-8475F7381187}|DA.Alquileres.Services\\DA.Alquileres.Services.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{806319B3-8411-4337-8569-8475F7381187}|DA.Alquileres.Services\\DA.Alquileres.Services.csproj|solutionrelative:da.alquileres.services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B783A-BB5A-4F9D-A7C3-F420B6983DC7}|DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.iservices\\iusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B783A-BB5A-4F9D-A7C3-F420B6983DC7}|DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj|solutionrelative:da.alquileres.iservices\\iusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699BCB4B-DE5E-4817-86B5-9A4150020F01}|DA.Alquileres.IRepository\\DA.Alquileres.IRepository.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.irepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699BCB4B-DE5E-4817-86B5-9A4150020F01}|DA.Alquileres.IRepository\\DA.Alquileres.IRepository.csproj|solutionrelative:da.alquileres.irepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699BCB4B-DE5E-4817-86B5-9A4150020F01}|DA.Alquileres.IRepository\\DA.Alquileres.IRepository.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.irepository\\ibaserespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699BCB4B-DE5E-4817-86B5-9A4150020F01}|DA.Alquileres.IRepository\\DA.Alquileres.IRepository.csproj|solutionrelative:da.alquileres.irepository\\ibaserespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEDCB3D-3037-4E34-9C0F-12400248DDA8}|DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.dto\\usuario\\usuarioactualizardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEDCB3D-3037-4E34-9C0F-12400248DDA8}|DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj|solutionrelative:da.alquileres.dto\\usuario\\usuarioactualizardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IRepository\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "DA.Alquileres.IRepository\\IUsuarioRepository.cs",
+              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IRepository\\IUsuarioRepository.cs",
+              "RelativeToolTip": "DA.Alquileres.IRepository\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:38:03.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBaseRespository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IRepository\\IBaseRespository.cs",
+              "RelativeDocumentMoniker": "DA.Alquileres.IRepository\\IBaseRespository.cs",
+              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IRepository\\IBaseRespository.cs",
+              "RelativeToolTip": "DA.Alquileres.IRepository\\IBaseRespository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:35:08.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "DA.Alquileres.Repository\\BaseRepository.cs",
+              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Repository\\BaseRepository.cs",
+              "RelativeToolTip": "DA.Alquileres.Repository\\BaseRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAewEwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T19:46:50.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioActualizarDTO.cs",
+              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.DTO\\Usuario\\UsuarioActualizarDTO.cs",
+              "RelativeDocumentMoniker": "DA.Alquileres.DTO\\Usuario\\UsuarioActualizarDTO.cs",
+              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.DTO\\Usuario\\UsuarioActualizarDTO.cs",
+              "RelativeToolTip": "DA.Alquileres.DTO\\Usuario\\UsuarioActualizarDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:13:20.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "DA.Alquileres.API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "DA.Alquileres.API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAgwLkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:38:59.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioServices.cs",
+              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Services\\UsuarioServices.cs",
+              "RelativeDocumentMoniker": "DA.Alquileres.Services\\UsuarioServices.cs",
+              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Services\\UsuarioServices.cs",
+              "RelativeToolTip": "DA.Alquileres.Services\\UsuarioServices.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:12:20.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "DA.Alquileres.Repository\\UsuarioRepository.cs",
+              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "DA.Alquileres.Repository\\UsuarioRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA+wCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:42:15.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioServices.cs",
+              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IServices\\IUsuarioServices.cs",
+              "RelativeDocumentMoniker": "DA.Alquileres.IServices\\IUsuarioServices.cs",
+              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IServices\\IUsuarioServices.cs",
+              "RelativeToolTip": "DA.Alquileres.IServices\\IUsuarioServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:12:21.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\bin\Debug\net9.0\DA.Alquileres.General.deps.json
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\bin\Debug\net9.0\DA.Alquileres.General.runtimeconfig.json
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\bin\Debug\net9.0\DA.Alquileres.General.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\bin\Debug\net9.0\DA.Alquileres.General.pdb
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.csproj.AssemblyReference.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.AssemblyInfoInputs.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.AssemblyInfo.cs
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.csproj.CoreCompileInputs.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\refint\DA.Alquileres.General.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.pdb
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.genruntimeconfig.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\ref\DA.Alquileres.General.dll

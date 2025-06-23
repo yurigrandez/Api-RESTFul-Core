@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DA.Alquileres.API</name>
+    </assembly>
+    <members>
+        <member name="T:DA.Alquileres.API.Controllers.UsuarioController">
+            <summary>
+            Controlador de la clase Usuarios
+            </summary>
+        </member>
+        <member name="M:DA.Alquileres.API.Controllers.UsuarioController.#ctor(DA.Alquileres.IServices.IUsuarioServices,AutoMapper.IMapper)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="services">representa a la clase que contiene las reglas del negocio</param>
+            <param name="mapper">clase para el mapeo de los DTO</param>
+        </member>
+        <member name="M:DA.Alquileres.API.Controllers.UsuarioController.GetAll">
+            <summary>
+            Obtiene la lista de usuarios registraados
+            </summary>
+            <returns>muestra una lista</returns>
+        </member>
+        <member name="T:DA.Alquileres.API.ServicesInyeccionDependenciesExtensions">
+            <summary>
+            Clase para agregar las inyecion de dependencias
+            </summary>
+        </member>
+        <member name="M:DA.Alquileres.API.ServicesInyeccionDependenciesExtensions.AddMyServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Método para registrar las inyecciones de dependencia
+            </summary>
+            <param name="services">services del program</param>
+            <returns></returns>
+        </member>
+        <member name="T:DA.Alquileres.API.ServicesValidationExtensions">
+            <summary>
+            Clase para registrar las clases de validación
+            </summary>
+        </member>
+        <member name="M:DA.Alquileres.API.ServicesValidationExtensions.AddMyValidations(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Método para registrar las clases de validación
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

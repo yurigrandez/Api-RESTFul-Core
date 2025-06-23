@@ -1,0 +1,424 @@
+{
+	"info": {
+		"_postman_id": "df94ebda-a6f3-44ac-8075-9475fd893e88",
+		"name": "GalaxyTraining",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9756068"
+	},
+	"item": [
+		{
+			"name": "ApiResFul Core",
+			"item": [
+				{
+					"name": "Multiproyecto",
+					"item": [
+						{
+							"name": "Usuario",
+							"item": [
+								{
+									"name": "GetAll",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApi}}/Usuario",
+											"host": [
+												"{{rutaApi}}"
+											],
+											"path": [
+												"Usuario"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Create",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"codigo\": \"003\",\r\n  \"nombre\": \"JORGE\",\r\n  \"paterno\": \"RAMOS\",\r\n  \"materno\": \"PAREDES\",\r\n  \"correo\": \"jramos@gmail.com\",\r\n  \"clave\": \"789654123\",\r\n  \"idTipoUsuario\": 1,\r\n  \"idtipoDocumento\": 3,\r\n  \"numeroDocumento\": \"10452274\",\r\n  \"direccion\": \"Su casa\",\r\n  \"telefono\": \"981432247\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApi}}/Usuario",
+											"host": [
+												"{{rutaApi}}"
+											],
+											"path": [
+												"Usuario"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetById",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "GET",
+										"header": [
+											{
+												"key": "",
+												"value": "",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApi}}/Usuario/2",
+											"host": [
+												"{{rutaApi}}"
+											],
+											"path": [
+												"Usuario",
+												"2"
+											],
+											"query": [
+												{
+													"key": "",
+													"value": "",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Update",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "PUT",
+										"header": [
+											{
+												"key": "",
+												"value": "",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"Nombre\":\"JUAN\",\r\n    \"Paterno\":\"MARTINEZ\",\r\n    \"Materno\":\"SOTO\",\r\n    \"Correo\":\"jmartinez@gmail.com\",\r\n    \"Clave\":\"654321\",\r\n    \"IdTipoUsuario\":\"2\",\r\n    \"IdtipoDocumento\":\"4\",\r\n    \"NumeroDocumento\":\"100523\",\r\n    \"Direccion\":\"Su casa\",\r\n    \"Telefono\":\"12345789\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApi}}/Usuario/3",
+											"host": [
+												"{{rutaApi}}"
+											],
+											"path": [
+												"Usuario",
+												"3"
+											],
+											"query": [
+												{
+													"key": "",
+													"value": "",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Delete",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "",
+												"value": "",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApi}}/Usuario/5",
+											"host": [
+												"{{rutaApi}}"
+											],
+											"path": [
+												"Usuario",
+												"5"
+											],
+											"query": [
+												{
+													"key": "",
+													"value": "",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Patch",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "PATCH",
+										"header": [
+											{
+												"key": "",
+												"value": "",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"Nombre\":\"JUAN\",\r\n    \"Paterno\":\"MARTINEZ\",\r\n    \"Materno\":\"SOTO\",\r\n    \"Correo\":\"jmartinez@gmail.com\",\r\n    \"Clave\":\"654321\",\r\n    \"IdTipoUsuario\":\"2\",\r\n    \"IdtipoDocumento\":\"4\",\r\n    \"NumeroDocumento\":\"100523\",\r\n    \"Direccion\":\"Su casa\",\r\n    \"Telefono\":\"12345789\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApi}}/Usuario/3",
+											"host": [
+												"{{rutaApi}}"
+											],
+											"path": [
+												"Usuario",
+												"3"
+											],
+											"query": [
+												{
+													"key": "",
+													"value": "",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "MonoProyecto",
+					"item": [
+						{
+							"name": "TipoDocumentos",
+							"item": [
+								{
+									"name": "Create",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"Id\":0,\r\n    \"Abreviatura\":\"xxx\",\r\n    \"Nombre\":\"xxx\",\r\n    \"Descripcion\":\"xxx\",\r\n    \"FechaCreacion\":\"2025-06-23\",\r\n    \"FechaModificacion\":null,\r\n    \"FechaDesactivacion\":null\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApiMonoproyecto}}/TipoDocumentos",
+											"host": [
+												"{{rutaApiMonoproyecto}}"
+											],
+											"path": [
+												"TipoDocumentos"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetById",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{rutaApiMonoproyecto}}/TipoDocumentos/5",
+											"host": [
+												"{{rutaApiMonoproyecto}}"
+											],
+											"path": [
+												"TipoDocumentos",
+												"5"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetAll",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{rutaApiMonoproyecto}}/TipoDocumentos",
+											"host": [
+												"{{rutaApiMonoproyecto}}"
+											],
+											"path": [
+												"TipoDocumentos"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Put",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"id\": 8,\r\n    \"Abreviatura\":\"xxx\",\r\n    \"Nombre\":\"yyyy\",\r\n    \"Descripcion\":\"yyyy\",\r\n    \"FechaCreacion\":\"2025-06-23\",\r\n    \"FechaModificacion\":\"2025-06-23T14:17:00\",\r\n    \"FechaDesactivacion\":null\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApiMonoproyecto}}/TipoDocumentos/7",
+											"host": [
+												"{{rutaApiMonoproyecto}}"
+											],
+											"path": [
+												"TipoDocumentos",
+												"7"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Delete",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{rutaApiMonoproyecto}}/TipoDocumentos/8",
+											"host": [
+												"{{rutaApiMonoproyecto}}"
+											],
+											"path": [
+												"TipoDocumentos",
+												"8"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Patch",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "PATCH",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApiMonoproyecto}}/TipoDocumentos/5",
+											"host": [
+												"{{rutaApiMonoproyecto}}"
+											],
+											"path": [
+												"TipoDocumentos",
+												"5"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "ApiRestFul Advanced",
+			"item": []
+		}
+	]
+}
