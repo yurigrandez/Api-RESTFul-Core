@@ -12,3 +12,18 @@ D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automap
 D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.pdb
 D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.genruntimeconfig.cache
 D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\ref\DA.Alquileres.Automapping.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\bin\Debug\net9.0\DA.Alquileres.Automapping.deps.json
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\bin\Debug\net9.0\DA.Alquileres.Automapping.runtimeconfig.json
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\bin\Debug\net9.0\DA.Alquileres.Automapping.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\bin\Debug\net9.0\DA.Alquileres.Automapping.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.csproj.AssemblyReference.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.AssemblyInfoInputs.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.AssemblyInfo.cs
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.csproj.CoreCompileInputs.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.sourcelink.json
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\refint\DA.Alquileres.Automapping.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\DA.Alquileres.Automapping.genruntimeconfig.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Automapping\obj\Debug\net9.0\ref\DA.Alquileres.Automapping.dll

@@ -1,46 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\",
+  "WorkspaceRootPath": "C:\\Users\\YuriGrandez\\source\\repos\\Api-RESTFul-Core\\DA.Alquileres\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D24BEF98-8F78-4553-83D3-5264868CC269}|DA.Alquileres.Repository\\DA.Alquileres.Repository.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24BEF98-8F78-4553-83D3-5264868CC269}|DA.Alquileres.Repository\\DA.Alquileres.Repository.csproj|solutionrelative:da.alquileres.repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{119B783A-BB5A-4F9D-A7C3-F420B6983DC7}|DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj|c:\\users\\yurigrandez\\source\\repos\\api-restful-core\\da.alquileres\\da.alquileres.iservices\\iusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B783A-BB5A-4F9D-A7C3-F420B6983DC7}|DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj|solutionrelative:da.alquileres.iservices\\iusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{806319B3-8411-4337-8569-8475F7381187}|DA.Alquileres.Services\\DA.Alquileres.Services.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{806319B3-8411-4337-8569-8475F7381187}|DA.Alquileres.Services\\DA.Alquileres.Services.csproj|solutionrelative:da.alquileres.services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|c:\\users\\yurigrandez\\source\\repos\\api-restful-core\\da.alquileres\\da.alquileres.api\\middleware\\errormiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|solutionrelative:da.alquileres.api\\middleware\\errormiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|c:\\users\\yurigrandez\\source\\repos\\api-restful-core\\da.alquileres\\da.alquileres.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|solutionrelative:da.alquileres.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24BEF98-8F78-4553-83D3-5264868CC269}|DA.Alquileres.Repository\\DA.Alquileres.Repository.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24BEF98-8F78-4553-83D3-5264868CC269}|DA.Alquileres.Repository\\DA.Alquileres.Repository.csproj|solutionrelative:da.alquileres.repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|solutionrelative:da.alquileres.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.api\\servicesinyecciondependenciesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|solutionrelative:da.alquileres.api\\servicesinyecciondependenciesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A895097C-6755-4697-8730-D5653D98C622}|DA.Alquileres.Entidades\\DA.Alquileres.Entidades.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.entidades\\entidades\\tabusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A895097C-6755-4697-8730-D5653D98C622}|DA.Alquileres.Entidades\\DA.Alquileres.Entidades.csproj|solutionrelative:da.alquileres.entidades\\entidades\\tabusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A895097C-6755-4697-8730-D5653D98C622}|DA.Alquileres.Entidades\\DA.Alquileres.Entidades.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.entidades\\entidades\\_dbalquilerescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A895097C-6755-4697-8730-D5653D98C622}|DA.Alquileres.Entidades\\DA.Alquileres.Entidades.csproj|solutionrelative:da.alquileres.entidades\\entidades\\_dbalquilerescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CEDCB3D-3037-4E34-9C0F-12400248DDA8}|DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.dto\\usuario\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CEDCB3D-3037-4E34-9C0F-12400248DDA8}|DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj|solutionrelative:da.alquileres.dto\\usuario\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|d:\\proyectos\\galaxytraining\\api restful core\\da.alquileres\\da.alquileres.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E73584A0-D081-4690-ACAF-028E89A09E61}|DA.Alquileres.API\\DA.Alquileres.API.csproj|solutionrelative:da.alquileres.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,123 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Repository\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "DA.Alquileres.Repository\\UsuarioRepository.cs",
-              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Repository\\UsuarioRepository.cs",
-              "RelativeToolTip": "DA.Alquileres.Repository\\UsuarioRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Title": "IUsuarioServices.cs",
+              "DocumentMoniker": "C:\\Users\\YuriGrandez\\source\\repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.IServices\\IUsuarioServices.cs",
+              "RelativeDocumentMoniker": "DA.Alquileres.IServices\\IUsuarioServices.cs",
+              "ToolTip": "C:\\Users\\YuriGrandez\\source\\repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.IServices\\IUsuarioServices.cs",
+              "RelativeToolTip": "DA.Alquileres.IServices\\IUsuarioServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T19:32:53.955Z",
+              "WhenOpened": "2025-06-25T03:24:43.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioServices.cs",
-              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Services\\UsuarioServices.cs",
-              "RelativeDocumentMoniker": "DA.Alquileres.Services\\UsuarioServices.cs",
-              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Services\\UsuarioServices.cs",
-              "RelativeToolTip": "DA.Alquileres.Services\\UsuarioServices.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Title": "ErrorMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\YuriGrandez\\source\\repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.API\\Middleware\\ErrorMiddleware.cs",
+              "RelativeDocumentMoniker": "DA.Alquileres.API\\Middleware\\ErrorMiddleware.cs",
+              "ToolTip": "C:\\Users\\YuriGrandez\\source\\repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.API\\Middleware\\ErrorMiddleware.cs",
+              "RelativeToolTip": "DA.Alquileres.API\\Middleware\\ErrorMiddleware.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T19:32:35.799Z"
+              "WhenOpened": "2025-06-25T03:23:29.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.API\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\YuriGrandez\\source\\repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.API\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "DA.Alquileres.API\\Controllers\\UsuarioController.cs",
-              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\YuriGrandez\\source\\repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.API\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "DA.Alquileres.API\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAkwLEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAuwMMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:31:13.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServicesInyeccionDependenciesExtensions.cs",
-              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.API\\ServicesInyeccionDependenciesExtensions.cs",
-              "RelativeDocumentMoniker": "DA.Alquileres.API\\ServicesInyeccionDependenciesExtensions.cs",
-              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.API\\ServicesInyeccionDependenciesExtensions.cs",
-              "RelativeToolTip": "DA.Alquileres.API\\ServicesInyeccionDependenciesExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:21:18.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Repository\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "DA.Alquileres.Repository\\BaseRepository.cs",
-              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Repository\\BaseRepository.cs",
-              "RelativeToolTip": "DA.Alquileres.Repository\\BaseRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwDsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:17:01.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TabUsuarios.cs",
-              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Entidades\\Entidades\\TabUsuarios.cs",
-              "RelativeDocumentMoniker": "DA.Alquileres.Entidades\\Entidades\\TabUsuarios.cs",
-              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Entidades\\Entidades\\TabUsuarios.cs",
-              "RelativeToolTip": "DA.Alquileres.Entidades\\Entidades\\TabUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:09:05.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.DTO\\Usuario\\UsuarioDTO.cs",
-              "RelativeDocumentMoniker": "DA.Alquileres.DTO\\Usuario\\UsuarioDTO.cs",
-              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.DTO\\Usuario\\UsuarioDTO.cs",
-              "RelativeToolTip": "DA.Alquileres.DTO\\Usuario\\UsuarioDTO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T14:58:39.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.API\\Program.cs",
-              "RelativeDocumentMoniker": "DA.Alquileres.API\\Program.cs",
-              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.API\\Program.cs",
-              "RelativeToolTip": "DA.Alquileres.API\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEQAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T14:37:42.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.API\\appsettings.json",
-              "RelativeDocumentMoniker": "DA.Alquileres.API\\appsettings.json",
-              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.API\\appsettings.json",
-              "RelativeToolTip": "DA.Alquileres.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-23T14:37:14.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_dbAlquileresContext.cs",
-              "DocumentMoniker": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Entidades\\Entidades\\_dbAlquileresContext.cs",
-              "RelativeDocumentMoniker": "DA.Alquileres.Entidades\\Entidades\\_dbAlquileresContext.cs",
-              "ToolTip": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Entidades\\Entidades\\_dbAlquileresContext.cs",
-              "RelativeToolTip": "DA.Alquileres.Entidades\\Entidades\\_dbAlquileresContext.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAcwEkAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T14:16:42.565Z"
+              "WhenOpened": "2025-06-25T03:20:34.526Z",
+              "EditorCaption": ""
             }
           ]
         }

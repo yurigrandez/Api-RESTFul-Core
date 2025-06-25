@@ -15,3 +15,21 @@ D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.IServic
 D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.IServices\bin\Debug\net9.0\DA.Alquileres.DTO.dll
 D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.IServices\bin\Debug\net9.0\DA.Alquileres.DTO.pdb
 D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alqui.4D08F47E.Up2Date
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\bin\Debug\net9.0\DA.Alquileres.IServices.deps.json
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\bin\Debug\net9.0\DA.Alquileres.IServices.runtimeconfig.json
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\bin\Debug\net9.0\DA.Alquileres.IServices.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\bin\Debug\net9.0\DA.Alquileres.IServices.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\bin\Debug\net9.0\DA.Alquileres.DTO.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\bin\Debug\net9.0\DA.Alquileres.DTO.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alquileres.IServices.csproj.AssemblyReference.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alquileres.IServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alquileres.IServices.AssemblyInfoInputs.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alquileres.IServices.AssemblyInfo.cs
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alquileres.IServices.csproj.CoreCompileInputs.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alquileres.IServices.sourcelink.json
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alqui.4D08F47E.Up2Date
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alquileres.IServices.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\refint\DA.Alquileres.IServices.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alquileres.IServices.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\DA.Alquileres.IServices.genruntimeconfig.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IServices\obj\Debug\net9.0\ref\DA.Alquileres.IServices.dll

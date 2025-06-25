@@ -23,3 +23,29 @@ D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Service
 D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.Entidades.pdb
 D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.General.pdb
 D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alqui.DF019555.Up2Date
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.Services.deps.json
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.Services.runtimeconfig.json
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.Services.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.Services.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.DTO.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.Entidades.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.General.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.IRepository.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.IServices.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.IRepository.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.IServices.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.DTO.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.Entidades.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\bin\Debug\net9.0\DA.Alquileres.General.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alquileres.Services.csproj.AssemblyReference.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alquileres.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alquileres.Services.AssemblyInfoInputs.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alquileres.Services.AssemblyInfo.cs
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alquileres.Services.csproj.CoreCompileInputs.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alquileres.Services.sourcelink.json
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alqui.DF019555.Up2Date
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alquileres.Services.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\refint\DA.Alquileres.Services.dll
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alquileres.Services.pdb
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\DA.Alquileres.Services.genruntimeconfig.cache
+C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.Services\obj\Debug\net9.0\ref\DA.Alquileres.Services.dll

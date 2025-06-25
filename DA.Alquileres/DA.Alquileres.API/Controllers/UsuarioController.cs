@@ -48,6 +48,11 @@ namespace DA.Alquileres.API.Controllers
             return Ok(respuesta);
         }
 
+        /// <summary>
+        /// Busqueda de un usuario específico
+        /// </summary>
+        /// <param name="id">Llave primaria</param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<UsuarioDTO>> GetById(int id)
         {
@@ -75,6 +80,11 @@ namespace DA.Alquileres.API.Controllers
 
         }
 
+        /// <summary>
+        /// Creacion de un nuevo usuario
+        /// </summary>
+        /// <param name="usuario">datos del nuevo usuario a crear</param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult<GeneralResponseData<UsuarioDTO>>> Create(UsuarioNuevoDTO usuario)
         {
@@ -91,6 +101,12 @@ namespace DA.Alquileres.API.Controllers
             return Ok(respuesta);
         }
 
+        /// <summary>
+        /// Actualización de un usuario
+        /// </summary>
+        /// <param name="usuario">Datos a actualizar del usuario</param>
+        /// <param name="id">Llave primaria</param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<ActionResult<GeneralResponseData<UsuarioDTO>>> Update([FromBody] UsuarioActualizarDTO usuario, int id)
         {
@@ -144,6 +160,11 @@ namespace DA.Alquileres.API.Controllers
 
         }
 
+        /// <summary>
+        /// Eliminación de un usuario
+        /// </summary>
+        /// <param name="id">Llave primaria</param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<ActionResult<GeneralResponse>> Delete(int id)
         {
@@ -168,6 +189,12 @@ namespace DA.Alquileres.API.Controllers
             return Ok(respuesta);
         }
 
+        /// <summary>
+        /// Actualización parcial de un usuario
+        /// </summary>
+        /// <param name="usuario">Datos a actualizar de un usuario</param>
+        /// <param name="id">Llave primaria</param>
+        /// <returns></returns>
         [HttpPatch("{id}")]
         public async Task<ActionResult<GeneralResponse>> Patch([FromBody] UsuarioActualizarDTO usuario, int id)
         {

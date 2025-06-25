@@ -22,6 +22,43 @@
             </summary>
             <returns>muestra una lista</returns>
         </member>
+        <member name="M:DA.Alquileres.API.Controllers.UsuarioController.GetById(System.Int32)">
+            <summary>
+            Busqueda de un usuario específico
+            </summary>
+            <param name="id">Llave primaria</param>
+            <returns></returns>
+        </member>
+        <member name="M:DA.Alquileres.API.Controllers.UsuarioController.Create(DA.Alquileres.DTO.Usuario.UsuarioNuevoDTO)">
+            <summary>
+            Creacion de un nuevo usuario
+            </summary>
+            <param name="usuario">datos del nuevo usuario a crear</param>
+            <returns></returns>
+        </member>
+        <member name="M:DA.Alquileres.API.Controllers.UsuarioController.Update(DA.Alquileres.DTO.Usuario.UsuarioActualizarDTO,System.Int32)">
+            <summary>
+            Actualización de un usuario
+            </summary>
+            <param name="usuario">Datos a actualizar del usuario</param>
+            <param name="id">Llave primaria</param>
+            <returns></returns>
+        </member>
+        <member name="M:DA.Alquileres.API.Controllers.UsuarioController.Delete(System.Int32)">
+            <summary>
+            Eliminación de un usuario
+            </summary>
+            <param name="id">Llave primaria</param>
+            <returns></returns>
+        </member>
+        <member name="M:DA.Alquileres.API.Controllers.UsuarioController.Patch(DA.Alquileres.DTO.Usuario.UsuarioActualizarDTO,System.Int32)">
+            <summary>
+            Actualización parcial de un usuario
+            </summary>
+            <param name="usuario">Datos a actualizar de un usuario</param>
+            <param name="id">Llave primaria</param>
+            <returns></returns>
+        </member>
         <member name="T:DA.Alquileres.API.ServicesInyeccionDependenciesExtensions">
             <summary>
             Clase para agregar las inyecion de dependencias
@@ -45,6 +82,16 @@
             </summary>
             <param name="services"></param>
             <returns></returns>
+        </member>
+        <member name="T:DA.Alquileres.API.Validadores.UsuarioNuevoDTOValidador">
+            <summary>
+            Clase que valida a la entidad
+            </summary>
+        </member>
+        <member name="M:DA.Alquileres.API.Validadores.UsuarioNuevoDTOValidador.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
         </member>
     </members>
 </doc>

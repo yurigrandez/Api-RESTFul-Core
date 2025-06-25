@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DA.Alquileres.MonoProyecto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fa2d1b70d0649a6daad9cbef3c632a86c524026")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+117d0292729792c10c321c4146d5e67d30bd9abc")]
 [assembly: System.Reflection.AssemblyProductAttribute("DA.Alquileres.MonoProyecto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DA.Alquileres.MonoProyecto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

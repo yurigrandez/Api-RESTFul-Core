@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DA.Alquileres.Automapping")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+117d0292729792c10c321c4146d5e67d30bd9abc")]
 [assembly: System.Reflection.AssemblyProductAttribute("DA.Alquileres.Automapping")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DA.Alquileres.Automapping")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
