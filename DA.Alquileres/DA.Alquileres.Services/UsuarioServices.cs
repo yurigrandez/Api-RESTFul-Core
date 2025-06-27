@@ -77,5 +77,15 @@ namespace DA.Alquileres.Services
 
             return usuarioBD;
         }
+
+        public async Task<List<UsuarioDTO>> GetLista()
+        {
+            var listaDTO = new List<UsuarioDTO>();
+            var listaBD = await repository.GetLista();
+
+            listaDTO = mapper.Map<List<UsuarioDTO>>(listaBD);
+
+            return listaDTO;
+        }
     }
 }

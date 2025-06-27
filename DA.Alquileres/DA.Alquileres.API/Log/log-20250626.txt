@@ -1,0 +1,429 @@
+2025-06-26 23:10:02.732 -05:00 [INF] User profile is available. Using 'C:\Users\YuriGrandez\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 23:10:03.261 -05:00 [INF] Now listening on: https://localhost:7015
+2025-06-26 23:10:03.263 -05:00 [INF] Now listening on: http://localhost:5057
+2025-06-26 23:10:03.434 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 23:10:03.437 -05:00 [INF] Hosting environment: Development
+2025-06-26 23:10:03.472 -05:00 [INF] Content root path: C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.API
+2025-06-26 23:10:05.671 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 23:10:05.682 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2025-06-26 23:10:05.744 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript; charset=utf-8 82.5503ms
+2025-06-26 23:10:05.876 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 193.8329ms
+2025-06-26 23:10:05.985 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2025-06-26 23:10:06.334 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 348.8596ms
+2025-06-26 23:10:11.646 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:10:11.820 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:10:11.852 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:10:14.580 -05:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:10:14.674 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:10:14.727 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 2866.6502ms
+2025-06-26 23:10:14.729 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:10:14.744 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 3098.1723ms
+2025-06-26 23:10:23.182 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:10:23.187 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:10:23.188 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:10:23.292 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:10:23.297 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:10:23.299 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 107.7286ms
+2025-06-26 23:10:23.300 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:10:23.303 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 120.4504ms
+2025-06-26 23:15:24.484 -05:00 [INF] User profile is available. Using 'C:\Users\YuriGrandez\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 23:15:24.959 -05:00 [INF] Now listening on: https://localhost:7015
+2025-06-26 23:15:24.961 -05:00 [INF] Now listening on: http://localhost:5057
+2025-06-26 23:15:25.021 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 23:15:25.022 -05:00 [INF] Hosting environment: Development
+2025-06-26 23:15:25.032 -05:00 [INF] Content root path: C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.API
+2025-06-26 23:15:25.373 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 23:15:25.384 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2025-06-26 23:15:25.463 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript; charset=utf-8 95.0978ms
+2025-06-26 23:15:25.519 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 135.1557ms
+2025-06-26 23:15:25.573 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2025-06-26 23:15:25.767 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 194.4582ms
+2025-06-26 23:19:09.414 -05:00 [INF] User profile is available. Using 'C:\Users\YuriGrandez\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 23:19:09.894 -05:00 [INF] Now listening on: https://localhost:7015
+2025-06-26 23:19:09.896 -05:00 [INF] Now listening on: http://localhost:5057
+2025-06-26 23:19:10.137 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 23:19:10.188 -05:00 [INF] Hosting environment: Development
+2025-06-26 23:19:10.190 -05:00 [INF] Content root path: C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.API
+2025-06-26 23:19:12.165 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 23:19:12.165 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2025-06-26 23:19:12.208 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript; charset=utf-8 47.1625ms
+2025-06-26 23:19:12.285 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.6736ms
+2025-06-26 23:19:12.331 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2025-06-26 23:19:12.520 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 189.0045ms
+2025-06-26 23:19:25.754 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:19:25.863 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:19:25.868 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:19:25.894 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:19:28.450 -05:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:19:28.539 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:19:28.567 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 2665.8722ms
+2025-06-26 23:19:28.570 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:19:28.584 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 2829.4792ms
+2025-06-26 23:23:30.343 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:23:30.409 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:23:30.411 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:23:30.412 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:23:30.545 -05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:23:30.552 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:23:30.554 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 140.4014ms
+2025-06-26 23:23:30.556 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:23:30.559 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 216.1842ms
+2025-06-26 23:23:33.660 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:23:33.667 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:23:33.669 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:23:33.671 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:23:33.701 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:23:33.703 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:23:33.704 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 28.6902ms
+2025-06-26 23:23:33.705 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:23:33.709 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 48.684ms
+2025-06-26 23:23:34.420 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:23:34.425 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:23:34.426 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:23:34.427 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:23:34.432 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:23:34.436 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:23:34.438 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 8.0599ms
+2025-06-26 23:23:34.440 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:23:34.442 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 22.3394ms
+2025-06-26 23:30:50.601 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:30:50.605 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:30:50.606 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:30:50.607 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:30:50.632 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:30:50.636 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:30:50.638 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 27.8783ms
+2025-06-26 23:30:50.639 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:30:50.649 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 48.0135ms
+2025-06-26 23:30:57.298 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:30:57.302 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:30:57.305 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:30:57.307 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:30:57.314 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:30:57.319 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:30:57.321 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 10.234ms
+2025-06-26 23:30:57.322 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:30:57.323 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 24.9498ms
+2025-06-26 23:30:58.179 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:30:58.183 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:30:58.185 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:30:58.187 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:30:58.192 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:30:58.198 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:30:58.200 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 10.369ms
+2025-06-26 23:30:58.201 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:30:58.202 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 23.5853ms
+2025-06-26 23:31:03.547 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:31:03.551 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:31:03.552 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:31:03.554 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:31:03.560 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:31:03.563 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:31:03.566 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 9.2093ms
+2025-06-26 23:31:03.567 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:31:03.569 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 21.3256ms
+2025-06-26 23:31:04.364 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:31:04.370 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:31:04.371 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:31:04.373 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:31:04.381 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:31:04.387 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:31:04.390 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 13.0142ms
+2025-06-26 23:31:04.394 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:31:04.395 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 30.9195ms
+2025-06-26 23:31:05.122 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:31:05.126 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:31:05.127 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:31:05.128 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:31:05.135 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:31:05.139 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:31:05.141 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 9.1685ms
+2025-06-26 23:31:05.143 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:31:05.144 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 22.1206ms
+2025-06-26 23:41:48.891 -05:00 [INF] User profile is available. Using 'C:\Users\YuriGrandez\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 23:41:49.349 -05:00 [INF] Now listening on: https://localhost:7015
+2025-06-26 23:41:49.351 -05:00 [INF] Now listening on: http://localhost:5057
+2025-06-26 23:41:49.404 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 23:41:49.408 -05:00 [INF] Hosting environment: Development
+2025-06-26 23:41:49.410 -05:00 [INF] Content root path: C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.API
+2025-06-26 23:41:49.982 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 23:41:49.982 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2025-06-26 23:41:50.042 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript; charset=utf-8 66.7248ms
+2025-06-26 23:41:50.095 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.3556ms
+2025-06-26 23:41:50.164 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2025-06-26 23:41:50.366 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 202.0039ms
+2025-06-26 23:42:11.153 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/api/usuario/GetLista - null null
+2025-06-26 23:42:11.277 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:42:11.305 -05:00 [INF] Route matched with {action = "GetLista", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetLista() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:42:14.128 -05:00 [INF] Executed DbCommand (71ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:42:14.388 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:42:14.433 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API) in 3117.8563ms
+2025-06-26 23:42:14.437 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:42:14.449 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/api/usuario/GetLista - 200 null application/json; charset=utf-8 3297.2875ms
+2025-06-26 23:42:34.448 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:42:34.460 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:42:34.463 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:42:34.473 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:42:34.656 -05:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:42:34.663 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:42:34.671 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 195.1723ms
+2025-06-26 23:42:34.674 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:42:34.676 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 228.4405ms
+2025-06-26 23:42:41.448 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:42:41.456 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:42:41.459 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:42:41.461 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:42:41.492 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:42:41.494 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:42:41.496 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 32.1817ms
+2025-06-26 23:42:41.496 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:42:41.497 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 49.1313ms
+2025-06-26 23:42:42.454 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:42:42.459 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:42:42.460 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:42:42.462 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:42:42.471 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:42:42.474 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:42:42.476 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 8.7374ms
+2025-06-26 23:42:42.477 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:42:42.478 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 24.172ms
+2025-06-26 23:42:43.255 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:42:43.260 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:42:43.261 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:42:43.265 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:42:43.275 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:42:43.283 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:42:43.288 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 17.1991ms
+2025-06-26 23:42:43.289 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:42:43.323 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 68.1997ms
+2025-06-26 23:42:44.199 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:42:44.204 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:42:44.205 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:42:44.206 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:42:44.211 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:42:44.215 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:42:44.218 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 8.5013ms
+2025-06-26 23:42:44.220 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:42:44.221 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 21.7491ms
+2025-06-26 23:43:27.814 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/api/usuario/GetLista - null null
+2025-06-26 23:43:27.818 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:43:27.819 -05:00 [INF] Route matched with {action = "GetLista", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetLista() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:43:27.823 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:43:27.825 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:43:27.826 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API) in 5.5687ms
+2025-06-26 23:43:27.827 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:43:27.829 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/api/usuario/GetLista - 200 null application/json; charset=utf-8 14.646ms
+2025-06-26 23:43:36.690 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:43:36.693 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:43:36.694 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:43:36.695 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:43:36.700 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:43:36.703 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:43:36.704 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 6.6615ms
+2025-06-26 23:43:36.706 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:43:36.709 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 18.6049ms
+2025-06-26 23:45:25.385 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:45:25.387 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:45:25.388 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:45:25.389 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:45:25.396 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:45:25.401 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:45:25.402 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 10.0144ms
+2025-06-26 23:45:25.404 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:45:25.405 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 20.3604ms
+2025-06-26 23:45:36.266 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:45:36.269 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:45:36.270 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:45:36.272 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:45:36.277 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:45:36.280 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:45:36.282 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 7.0667ms
+2025-06-26 23:45:36.284 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:45:36.285 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 18.7698ms
+2025-06-26 23:45:37.049 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:45:37.054 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:45:37.055 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:45:37.057 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:45:37.066 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:45:37.077 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:45:37.081 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 21.0707ms
+2025-06-26 23:45:37.083 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:45:37.084 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 35.0985ms
+2025-06-26 23:45:38.061 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:45:38.065 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:45:38.066 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:45:38.067 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:45:38.074 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:45:38.079 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:45:38.081 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 10.4053ms
+2025-06-26 23:45:38.083 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:45:38.084 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 22.7388ms
+2025-06-26 23:46:10.072 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:46:10.087 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:46:10.088 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:46:10.089 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:46:10.098 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:46:10.102 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:46:10.104 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 7.9332ms
+2025-06-26 23:46:10.106 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:46:10.108 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 35.6056ms
+2025-06-26 23:47:53.198 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:47:53.216 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:47:53.217 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:47:53.220 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:47:53.229 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:47:53.234 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:47:53.236 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 11.3858ms
+2025-06-26 23:47:53.238 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:47:53.241 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 42.5731ms
+2025-06-26 23:47:59.901 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:47:59.904 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:47:59.905 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:47:59.909 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:47:59.916 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:47:59.921 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:47:59.924 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 12.5704ms
+2025-06-26 23:47:59.926 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:47:59.927 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 25.9509ms
+2025-06-26 23:48:00.643 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:48:00.648 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:48:00.649 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:48:00.651 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:48:00.655 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:48:00.663 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:48:00.665 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 11.9236ms
+2025-06-26 23:48:00.666 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:48:00.668 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 24.5851ms
+2025-06-26 23:48:01.395 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:48:01.398 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:48:01.399 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:48:01.401 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:48:01.407 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:48:01.411 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:48:01.412 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 7.9849ms
+2025-06-26 23:48:01.415 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:48:01.416 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 20.1892ms
+2025-06-26 23:48:02.148 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:48:02.153 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:48:02.154 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:48:02.155 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:48:02.161 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:48:02.166 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:48:02.170 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 11.174ms
+2025-06-26 23:48:02.174 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:48:02.176 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 27.36ms
+2025-06-26 23:48:02.791 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario - null null
+2025-06-26 23:48:02.794 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:48:02.797 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:48:02.799 -05:00 [INF] Route matched with {action = "GetAll", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetAll() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:48:02.804 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:48:02.808 -05:00 [INF] Executing OkObjectResult, writing value of type 'DA.Alquileres.DTO.General.GeneralResponseListData`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:48:02.810 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API) in 7.9973ms
+2025-06-26 23:48:02.813 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetAll (DA.Alquileres.API)'
+2025-06-26 23:48:02.816 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario - 200 null application/json; charset=utf-8 24.526ms
+2025-06-26 23:49:13.063 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario/GetLista - null null
+2025-06-26 23:49:13.077 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:49:13.078 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:49:13.079 -05:00 [INF] Route matched with {action = "GetLista", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetLista() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:49:13.086 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:49:13.092 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:49:13.094 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API) in 11.2941ms
+2025-06-26 23:49:13.096 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:49:13.097 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario/GetLista - 200 null application/json; charset=utf-8 34.6504ms
+2025-06-26 23:52:52.053 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario/GetLista - null null
+2025-06-26 23:52:52.062 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:52:52.063 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:52:52.065 -05:00 [INF] Route matched with {action = "GetLista", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetLista() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:52:52.073 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:52:52.077 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:52:52.079 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API) in 10.7222ms
+2025-06-26 23:52:52.080 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:52:52.081 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario/GetLista - 200 null application/json; charset=utf-8 28.0385ms
+2025-06-26 23:54:05.377 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario/GetLista - null null
+2025-06-26 23:54:05.387 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:54:05.388 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:54:05.389 -05:00 [INF] Route matched with {action = "GetLista", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetLista() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:54:05.396 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:54:05.400 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:54:05.403 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API) in 11.0151ms
+2025-06-26 23:54:05.405 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:54:05.407 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario/GetLista - 200 null application/json; charset=utf-8 30.0784ms
+2025-06-26 23:54:33.046 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7015/api/usuario/GetLista - null null
+2025-06-26 23:54:33.059 -05:00 [INF] CORS policy execution successful.
+2025-06-26 23:54:33.060 -05:00 [INF] Executing endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:54:33.062 -05:00 [INF] Route matched with {action = "GetLista", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DA.Alquileres.DTO.General.GeneralResponseListData`1[DA.Alquileres.DTO.Usuario.UsuarioDTO]]] GetLista() on controller DA.Alquileres.API.Controllers.UsuarioController (DA.Alquileres.API).
+2025-06-26 23:54:33.068 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Clave], [t].[Codigo], [t].[Correo], [t].[Direccion], [t].[FechaCreacion], [t].[FechaDesactivacion], [t].[FechaModificacion], [t].[IdTipoUsuario], [t].[IdtipoDocumento], [t].[Materno], [t].[Nombre], [t].[NumeroDocumento], [t].[Paterno], [t].[Telefono]
+FROM [tabUSUARIOS] AS [t]
+2025-06-26 23:54:33.072 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-26 23:54:33.074 -05:00 [INF] Executed action DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API) in 8.4172ms
+2025-06-26 23:54:33.076 -05:00 [INF] Executed endpoint 'DA.Alquileres.API.Controllers.UsuarioController.GetLista (DA.Alquileres.API)'
+2025-06-26 23:54:33.078 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7015/api/usuario/GetLista - 200 null application/json; charset=utf-8 31.91ms

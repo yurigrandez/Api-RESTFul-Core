@@ -48,6 +48,14 @@ namespace DA.Alquileres.API.Controllers
             return Ok(respuesta);
         }
 
+        [HttpGet("GetLista")]
+        public async Task<ActionResult<GeneralResponseListData<UsuarioDTO>>> GetLista()
+        {
+            List<UsuarioDTO>? lista = await services.GetLista();
+
+            return Ok(lista);
+        }
+
         /// <summary>
         /// Busqueda de un usuario específico
         /// </summary>

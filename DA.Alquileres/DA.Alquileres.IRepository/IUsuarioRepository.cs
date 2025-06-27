@@ -14,5 +14,6 @@ namespace DA.Alquileres.IRepository
         Task<GenericFilterResponse<VisUsuarios>> GetByFilter(GenericFilterRequest filter);
         Task<List<AutoCompleteResponse>> GetAutoComplete(string query);
         Task<bool> PatchFechaDesactivacion(int id);
+        Task<List<TabUsuarios>> GetLista();
     }
 }

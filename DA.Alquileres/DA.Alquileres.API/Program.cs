@@ -100,6 +100,24 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 #endregion Configurando Jwt
 
+#region Configurando CORS
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "origins",
+                        builder =>
+                        {
+                            builder.AllowAnyMethod();
+                            //builder.AllowAnyOrigin();
+                            builder.WithOrigins("http://localhost:550");
+                            builder.AllowAnyHeader();
+                        });
+
+});
+
+#endregion Configurando CORS
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -115,5 +133,6 @@ app.UseMiddleware<ErrorMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseCors("origins");
 app.MapControllers();
 app.Run();

@@ -162,3 +162,24 @@ AutoMapper
 Se debe instalar el Nugget:
 	AutoMapper.Extensions.Microsoft.DependencyInjection
 
+CORS
+====
+En la clase Program.cs, en la sección de los services agregar el siguiente código (Se puede editar según las necesides)
+
+	#region Configurando CORS
+
+	builder.Services.AddCors(options =>
+	{
+		options.AddPolicy(name: "origins",
+							builder =>
+							{
+								builder.AllowAnyMethod();
+								builder.AllowAnyOrigin();
+								builder.AllowAnyHeader();
+							});
+
+	});
+
+	#endregion Configurando CORS
+
+

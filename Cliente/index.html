@@ -1,0 +1,38 @@
+<html>
+
+    <head>
+    </head>
+
+    <body>
+
+        <h1>Cliente CORS</h1>
+
+        <div id="result"></div>
+
+        <script>
+
+            fetch("https://localhost:7015/api/usuario/GetLista")
+            .then((response)=>{
+                if(!response.ok){
+                    throw new Error("Error en la solicitud: "+ response.status);
+                }
+                return  response.json();
+            })
+            .then((data)=>{
+                console.log("Arreglo recibido: ", data);
+                const resultDiv = document.getElementById("result");
+                resultDiv.innerHTML = 
+                    "<h2>Usuarios</h2><ul>" +
+                    data
+                        .map((usuario) => `<li>${usuario.nombre} ${usuario.paterno} ${usuario.materno}</li>` )
+                        .join("")+"</ul>";
+            })
+            .catch((error) => {
+                console.error("Error: ", error);
+                document.getElementById("result").innerHTML = "<h3>Ocurrio un error: " + error + "</h3>";
+            });
+        </script>
+
+    </body>
+
+</html>

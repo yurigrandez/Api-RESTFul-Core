@@ -2,6 +2,7 @@
 using DA.Alquileres.Entidades.Entidades;
 using DA.Alquileres.Entidades.Vistas;
 using DA.Alquileres.IRepository;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,11 @@ namespace DA.Alquileres.Repository
         public async Task<GenericFilterResponse<VisUsuarios>> GetByFilter(GenericFilterRequest filter)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task<List<TabUsuarios>> GetLista()
+        {
+            return await context.TabUsuarios.ToListAsync();
         }
 
         public async Task<bool> PatchFechaDesactivacion(int id)

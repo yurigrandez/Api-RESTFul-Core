@@ -158,5 +158,25 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "DA.Alquileres.API.Controllers.UsuarioController",
+    "Method": "GetLista",
+    "RelativePath": "api/Usuario/GetLista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "DA.Alquileres.DTO.General.GeneralResponseListData\u00601[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
