@@ -22,7 +22,13 @@
 									},
 									"request": {
 										"method": "GET",
-										"header": [],
+										"header": [
+											{
+												"key": "Empresa",
+												"value": "DASolucionesInversiones",
+												"type": "text"
+											}
+										],
 										"body": {
 											"mode": "raw",
 											"raw": "",
@@ -247,6 +253,102 @@
 													"value": "",
 													"disabled": true
 												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Login",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var jsonData = pm.response.json();\r",
+													"var token = jsonData.data;\r",
+													"pm.environment.set(\"token\", token);\r",
+													"console.log(\"Token guardado:\", token);"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [
+											{
+												"key": "Empresa",
+												"value": "DASolucionesInversiones",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"Correo\":\"yurigrandez@gmail.com\",\r\n    \"Clave\":\"123456\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApi}}/login",
+											"host": [
+												"{{rutaApi}}"
+											],
+											"path": [
+												"login"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetLista",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": [
+												{
+													"key": "token",
+													"value": "{{token}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [
+											{
+												"key": "Empresa",
+												"value": "DASolucionesInversiones",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{rutaApi}}/Usuario/GetLista",
+											"host": [
+												"{{rutaApi}}"
+											],
+											"path": [
+												"Usuario",
+												"GetLista"
 											]
 										}
 									},
