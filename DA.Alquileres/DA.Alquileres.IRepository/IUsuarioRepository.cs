@@ -15,5 +15,6 @@ namespace DA.Alquileres.IRepository
         Task<List<AutoCompleteResponse>> GetAutoComplete(string query);
         Task<bool> PatchFechaDesactivacion(int id);
         Task<List<TabUsuarios>> GetLista();
+        Task<TabUsuarios?> Login(TabUsuarios usuario);
     }
 }

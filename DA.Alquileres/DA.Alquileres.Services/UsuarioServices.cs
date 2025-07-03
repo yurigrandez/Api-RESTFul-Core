@@ -87,5 +87,18 @@ namespace DA.Alquileres.Services
 
             return listaDTO;
         }
+
+        public async Task<UsuarioLoginResponseDTO?> Login(UsuarioLoginRequestDTO usuario)
+        {
+            var usuarioRequest = mapper.Map<TabUsuarios>(usuario);
+            var usuarioResponse = await repository.Login(usuarioRequest);
+            
+            if(usuarioResponse == null)
+                return null;
+
+            var usuarioLogin = mapper.Map<UsuarioLoginResponseDTO>(usuarioResponse);
+
+            return usuarioLogin;
+        }
     }
 }

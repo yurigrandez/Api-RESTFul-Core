@@ -50,5 +50,11 @@ namespace DA.Alquileres.Repository
             return true;
 
         }
+
+        public async Task<TabUsuarios?> Login(TabUsuarios usuario)
+        {
+            var usuarioLogin = await context.TabUsuarios.FirstOrDefaultAsync(x => x.Correo == usuario.Correo && x.Clave == usuario.Clave);
+            return usuarioLogin;
+        }
     }
 }

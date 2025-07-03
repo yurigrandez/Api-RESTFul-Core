@@ -108,8 +108,8 @@ builder.Services.AddCors(options =>
                         builder =>
                         {
                             builder.AllowAnyMethod();
-                            //builder.AllowAnyOrigin();
-                            builder.WithOrigins("http://localhost:550");
+                            builder.AllowAnyOrigin();
+                            //builder.WithOrigins("http://localhost:7015");
                             builder.AllowAnyHeader();
                         });
 

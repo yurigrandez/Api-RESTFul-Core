@@ -16,6 +16,10 @@ namespace DA.Alquileres.Entidades
             CreateMap<TabUsuarios, UsuarioDTO>().ReverseMap();
             CreateMap<UsuarioNuevoDTO, UsuarioDTO>().ReverseMap();
             CreateMap<UsuarioActualizarDTO, UsuarioDTO>().ReverseMap();
+            CreateMap<UsuarioLoginRequestDTO, UsuarioDTO>().ReverseMap();
+            CreateMap<UsuarioLoginResponseDTO, UsuarioDTO>().ReverseMap();
+            CreateMap<UsuarioLoginRequestDTO, TabUsuarios>().ReverseMap();
+            CreateMap<UsuarioLoginResponseDTO, TabUsuarios>().ReverseMap();
         }
     }
 }

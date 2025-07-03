@@ -27,3 +27,4 @@ C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.G
 C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.pdb
 C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.genruntimeconfig.cache
 C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\ref\DA.Alquileres.General.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.General\obj\Debug\net9.0\DA.Alquileres.General.sourcelink.json

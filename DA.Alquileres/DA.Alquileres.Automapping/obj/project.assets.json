@@ -5379,34 +5379,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\YuriGrandez\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\yurig\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.Automapping\\DA.Alquileres.Automapping.csproj",
+      "projectUniqueName": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Automapping\\DA.Alquileres.Automapping.csproj",
       "projectName": "DA.Alquileres.Automapping",
-      "projectPath": "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.Automapping\\DA.Alquileres.Automapping.csproj",
-      "packagesPath": "C:\\Users\\YuriGrandez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.Automapping\\obj\\",
+      "projectPath": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Automapping\\DA.Alquileres.Automapping.csproj",
+      "packagesPath": "C:\\Users\\yurig\\.nuget\\packages\\",
+      "outputPath": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.Automapping\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\YuriGrandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yurig\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

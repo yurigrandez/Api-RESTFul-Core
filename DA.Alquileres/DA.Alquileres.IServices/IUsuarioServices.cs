@@ -16,5 +16,6 @@ namespace DA.Alquileres.IServices
         Task<int> Delete(int id);
         Task<bool> PatchFechaDesactivacion(int id);
         Task<List<UsuarioDTO>> GetLista();
+        Task<UsuarioLoginResponseDTO?> Login(UsuarioLoginRequestDTO usuario);
     }
 }

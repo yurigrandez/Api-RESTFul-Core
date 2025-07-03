@@ -3,6 +3,7 @@ using DA.Alquileres.DTO.General;
 using DA.Alquileres.DTO.Usuario;
 using DA.Alquileres.Entidades.Entidades;
 using DA.Alquileres.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -48,8 +49,13 @@ namespace DA.Alquileres.API.Controllers
             return Ok(respuesta);
         }
 
+        /// <summary>
+        /// Lista los usuarios
+        /// </summary>
+        /// <returns>Muestra la lista de usuarios directamente</returns>
         [HttpGet("GetLista")]
-        public async Task<ActionResult<GeneralResponseListData<UsuarioDTO>>> GetLista()
+        [Authorize]
+        public async Task<ActionResult<List<UsuarioDTO>>> GetLista()
         {
             List<UsuarioDTO>? lista = await services.GetLista();
 

@@ -8,11 +8,13 @@ namespace DA.Alquileres.API.Middleware
     {
         private readonly RequestDelegate next;
         private readonly IMapper mapper;
+        private readonly ILogger<ErrorMiddleware> logger;
 
-        public ErrorMiddleware(RequestDelegate next, IMapper mapper)
+        public ErrorMiddleware(RequestDelegate next, IMapper mapper, ILogger<ErrorMiddleware> logger)
         {
             this.next = next;
             this.mapper = mapper;
+            this.logger = logger;
         }
 
         public async Task Invoke(HttpContext context)
@@ -26,7 +28,16 @@ namespace DA.Alquileres.API.Middleware
                     requestBody = await reader.ReadToEndAsync();
                 }
 
+                logger.LogInformation("Request Body: {RequestBody}", requestBody);
                 context.Request.Body.Position = 0;
+
+                //obteniento la cabecera ""CodigoAplicacion", de la petición HTTP
+                string Empresa = context.Request.Headers["Empresa"].FirstOrDefault();
+
+                if (Empresa != "DASolucionesInversiones")
+                {
+                    throw new Exception("Header => Empresa invalida");
+                }
 
                 await next(context);
             }

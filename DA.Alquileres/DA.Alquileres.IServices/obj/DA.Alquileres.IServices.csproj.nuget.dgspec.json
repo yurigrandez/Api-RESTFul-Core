@@ -1,33 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj": {}
+    "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj": {
+    "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj",
+        "projectUniqueName": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj",
         "projectName": "DA.Alquileres.DTO",
-        "projectPath": "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj",
-        "packagesPath": "C:\\Users\\YuriGrandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.DTO\\obj\\",
+        "projectPath": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj",
+        "packagesPath": "C:\\Users\\yurig\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\YuriGrandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yurig\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -129,38 +128,37 @@
         }
       }
     },
-    "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj": {
+    "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj",
+        "projectUniqueName": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj",
         "projectName": "DA.Alquileres.IServices",
-        "projectPath": "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj",
-        "packagesPath": "C:\\Users\\YuriGrandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.IServices\\obj\\",
+        "projectPath": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IServices\\DA.Alquileres.IServices.csproj",
+        "packagesPath": "C:\\Users\\yurig\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.IServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\YuriGrandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yurig\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj": {
-                "projectPath": "C:\\Users\\YuriGrandez\\Source\\Repos\\Api-RESTFul-Core\\DA.Alquileres\\DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj"
+              "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj": {
+                "projectPath": "D:\\Proyectos\\GalaxyTraining\\Api RESTFul Core\\DA.Alquileres\\DA.Alquileres.DTO\\DA.Alquileres.DTO.csproj"
               }
             }
           }

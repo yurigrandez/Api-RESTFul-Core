@@ -1,0 +1,16 @@
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\bin\Debug\net9.0\DA.Alquileres.Token.deps.json
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\bin\Debug\net9.0\DA.Alquileres.Token.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\bin\Debug\net9.0\DA.Alquileres.Token.pdb
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\bin\Debug\net9.0\DA.Alquileres.DTO.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\bin\Debug\net9.0\DA.Alquileres.DTO.pdb
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\DA.Alquileres.Token.csproj.AssemblyReference.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\DA.Alquileres.Token.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\DA.Alquileres.Token.AssemblyInfoInputs.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\DA.Alquileres.Token.AssemblyInfo.cs
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\DA.Alquileres.Token.csproj.CoreCompileInputs.cache
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\DA.Alquileres.Token.sourcelink.json
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\DA.Alqui.86A24EE8.Up2Date
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\DA.Alquileres.Token.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\refint\DA.Alquileres.Token.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\DA.Alquileres.Token.pdb
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.Token\obj\Debug\net9.0\ref\DA.Alquileres.Token.dll

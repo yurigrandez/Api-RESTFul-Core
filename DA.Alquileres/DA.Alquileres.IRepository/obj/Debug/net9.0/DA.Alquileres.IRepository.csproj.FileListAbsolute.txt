@@ -41,3 +41,4 @@ C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.I
 C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IRepository\obj\Debug\net9.0\DA.Alquileres.IRepository.pdb
 C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IRepository\obj\Debug\net9.0\DA.Alquileres.IRepository.genruntimeconfig.cache
 C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.IRepository\obj\Debug\net9.0\ref\DA.Alquileres.IRepository.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.IRepository\obj\Debug\net9.0\DA.Alquileres.IRepository.sourcelink.json

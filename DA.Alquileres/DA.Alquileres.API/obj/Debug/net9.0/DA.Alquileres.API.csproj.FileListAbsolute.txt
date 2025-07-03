@@ -390,3 +390,7 @@ C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.A
 C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.API\obj\Debug\net9.0\DA.Alquileres.API.pdb
 C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.API\obj\Debug\net9.0\DA.Alquileres.API.genruntimeconfig.cache
 C:\Users\YuriGrandez\Source\Repos\Api-RESTFul-Core\DA.Alquileres\DA.Alquileres.API\obj\Debug\net9.0\ref\DA.Alquileres.API.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.API\obj\Debug\net9.0\DA.Alquileres.API.sourcelink.json
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.API\bin\Debug\net9.0\FluentValidation.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.API\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+D:\Proyectos\GalaxyTraining\Api RESTFul Core\DA.Alquileres\DA.Alquileres.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

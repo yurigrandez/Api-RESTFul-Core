@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DA.Alquileres.Automapping",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DA.Alquileres.General", "DA.Alquileres.General\DA.Alquileres.General.csproj", "{3CC4A63A-9255-4921-805E-D403CD959599}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DA.Alquileres.Token", "DA.Alquileres.Token\DA.Alquileres.Token.csproj", "{86F86126-B13C-401E-B173-9F04E953AE15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +80,10 @@ Global
 		{3CC4A63A-9255-4921-805E-D403CD959599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CC4A63A-9255-4921-805E-D403CD959599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CC4A63A-9255-4921-805E-D403CD959599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F86126-B13C-401E-B173-9F04E953AE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F86126-B13C-401E-B173-9F04E953AE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F86126-B13C-401E-B173-9F04E953AE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F86126-B13C-401E-B173-9F04E953AE15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{8CEDCB3D-3037-4E34-9C0F-12400248DDA8} = {B6A6F570-77D3-487C-BEFB-6F7D5ECE9378}
 		{CA5C449D-63CB-469A-BC52-94CF5C14C399} = {6F432BCA-1EA0-4E58-901A-9554407084F6}
 		{3CC4A63A-9255-4921-805E-D403CD959599} = {6F432BCA-1EA0-4E58-901A-9554407084F6}
+		{86F86126-B13C-401E-B173-9F04E953AE15} = {6F432BCA-1EA0-4E58-901A-9554407084F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2AE5F149-F389-4619-9F79-7B42229332B8}

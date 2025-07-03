@@ -4,6 +4,19 @@
         <name>DA.Alquileres.API</name>
     </assembly>
     <members>
+        <member name="T:DA.Alquileres.API.Controllers.LoginController">
+            <summary>
+            Controlador que permite identificarse al usuario
+            </summary>
+        </member>
+        <member name="M:DA.Alquileres.API.Controllers.LoginController.#ctor(DA.Alquileres.IServices.IUsuarioServices,AutoMapper.IMapper,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Contructor
+            </summary>
+            <param name="services">Contiene los métodos</param>
+            <param name="mapper">Sirve para mapear los objetos</param>
+            <param name="configuration">Sirve para obtener datos de appsetting</param>
+        </member>
         <member name="T:DA.Alquileres.API.Controllers.UsuarioController">
             <summary>
             Controlador de la clase Usuarios
@@ -21,6 +34,12 @@
             Obtiene la lista de usuarios registraados
             </summary>
             <returns>muestra una lista</returns>
+        </member>
+        <member name="M:DA.Alquileres.API.Controllers.UsuarioController.GetLista">
+            <summary>
+            Lista los usuarios
+            </summary>
+            <returns>Muestra la lista de usuarios directamente</returns>
         </member>
         <member name="M:DA.Alquileres.API.Controllers.UsuarioController.GetById(System.Int32)">
             <summary>

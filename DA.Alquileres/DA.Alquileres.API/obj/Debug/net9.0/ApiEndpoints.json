@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "DA.Alquileres.API.Controllers.LoginController",
+    "Method": "login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDTO",
+        "Type": "DA.Alquileres.DTO.Usuario.UsuarioLoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DA.Alquileres.DTO.General.GeneralResponseData\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "DA.Alquileres.API.Controllers.UsuarioController",
     "Method": "GetAll",
     "RelativePath": "api/Usuario",
@@ -169,7 +195,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "DA.Alquileres.DTO.General.GeneralResponseListData\u00601[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[DA.Alquileres.DTO.Usuario.UsuarioDTO, DA.Alquileres.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

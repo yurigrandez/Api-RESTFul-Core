@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DA.Alquileres.IServices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a1057146558171ae2873e394a7fbdf59b4fed2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe0276fbb96189d2489050294c645167251eccab")]
 [assembly: System.Reflection.AssemblyProductAttribute("DA.Alquileres.IServices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DA.Alquileres.IServices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
