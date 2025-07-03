@@ -1,7 +1,4 @@
 .vs
-bin/
-obj/
-Log/
 /DA.Alquileres/DA.Alquileres.API/bin
 /DA.Alquileres/DA.Alquileres.API/Log
 /DA.Alquileres.MonoProyecto/DA.Alquileres.MonoProyecto/bin
